@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3.2]]></item>
+	<item id="Time"><![CDATA[2016-05-25 15:27]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[易盾反垃圾插件]]></item>
+			<item id="identifier"><![CDATA[yidun_dz]]></item>
+			<item id="description"><![CDATA[易盾是网易旗下提供图像识别、文本过滤、视频检测、语音分析等内容安全的反垃圾云服务。功能服务包含：广告过滤，智能鉴黄，智能反恐，安全预判等。网易易盾推出一系列行业解决方案，例如社交类（UGC）、金融类、资讯类等解决方案。网易易盾拥有18年反垃圾专业经验，仅通过接口调用即可快速接入。]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[yidun_dz/]]></item>
+			<item id="copyright"><![CDATA[易盾]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[yidun]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X3.2]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[启用易盾反垃圾]]></item>
+				<item id="description"><![CDATA[配置是否启用插件]]></item>
+				<item id="variable"><![CDATA[enable_flag]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[接口地址]]></item>
+				<item id="description"><![CDATA[请求接口地址，默认]]></item>
+				<item id="variable"><![CDATA[api_url]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[https://api.aq.163.com/v2/text/check]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[密钥ID]]></item>
+				<item id="description"><![CDATA[从易盾申请得到的密钥ID]]></item>
+				<item id="variable"><![CDATA[secret_id]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[密钥KEY]]></item>
+				<item id="description"><![CDATA[从易盾申请得到的密钥KEY]]></item>
+				<item id="variable"><![CDATA[secret_key]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[业务ID]]></item>
+				<item id="description"><![CDATA[从易盾申请得到的业务ID]]></item>
+				<item id="variable"><![CDATA[business_id]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+	</item>
+</root>
+
