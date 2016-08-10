@@ -92,8 +92,6 @@ class plugin_yidun_dz_forum extends plugin_yidun_dz {
             "dataOpType"=>1, // 这里全部当做新增处理
             "content"=>$content,
             "ip"=>$ip,
-            "parentDataId"=>$thread_id,
-            "title"=>$title,
             "account"=>$account,
             "publishTime"=>round(microtime(true)*1000)
         );
