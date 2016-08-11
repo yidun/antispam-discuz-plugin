@@ -1,7 +1,7 @@
+<?php
 /*
  * Copyright 2016 dun.163.com, Inc. All rights reserved.
  */
-<?php
 !defined('IN_DISCUZ') && exit('ACCESS DENIED');
 
 class plugin_yidun_dz {}
