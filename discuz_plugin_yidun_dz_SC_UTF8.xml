@@ -48,7 +48,7 @@
 				<item id="description"><![CDATA[请求接口地址，默认]]></item>
 				<item id="variable"><![CDATA[api_url]]></item>
 				<item id="type"><![CDATA[text]]></item>
-				<item id="value"><![CDATA[https://api.aq.163.com/v2/text/check]]></item>
+				<item id="value"><![CDATA[https://as.dun.163yun.com/v2/text/check]]></item>
 				<item id="extra"><![CDATA[]]></item>
 			</item>
 			<item id="2">
